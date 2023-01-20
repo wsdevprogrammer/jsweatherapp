@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  align-items: center;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(9, 9, 121) 35%, rgb(0, 212, 255) 100%);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "verdana";
+  font-weight: 400;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  background-color: white;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  color: black;
+}
+.card img {
+  width: 50%;
+}
+
+#input {
+  padding: 10px;
+  border-radius: 3px;
+  border: none;
+  margin: 20px auto;
+}
+#input:focus {
+  outline: none;
+}
+
+#btn {
+  padding: 10px;
+  border-radius: 3px;
+  border: none;
+  margin: 20px auto;
+}
+#btn:hover {
+  background-color: yellow;
+  cursor: pointer;
+}
+
+.weather-container {
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+/*# sourceMappingURL=style.css.map */
